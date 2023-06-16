@@ -2,12 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: 0 Always (success)
+ *main - Entry point
+ *Return: 0 Always (success)
  */
 int main(void)
 {
 	int n;
+
 	int m;
 
 	srand(time(0));
@@ -21,4 +22,3 @@ int main(void)
 		printf("Last digit of %d is %d and is less than 5 and not 0\n", n, m);
 	return (0);
 }
-
