@@ -18,7 +18,7 @@ int main(void)
 		putchar(i);
 	}
 
-	printf("Infinite loop avoided! \\o/\n"); // i is nit incremented and thus remains constant thus infinite loop
+	printf("Infinite loop avoided! \\o/\n"); /* i is not incremented*/
 
 	return (0);
 }
