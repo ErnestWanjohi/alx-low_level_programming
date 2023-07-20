@@ -3,6 +3,7 @@
 #include <stdarg.h>
 /**
  * print_strings - prints a string followed by a new line
+ *
  * @separator: string to be printed between numbers
  * @n: number of strings passed to the function
  * @...: a variable number of strings to be printed
@@ -22,7 +23,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 		str = va_arg(strings, char*);
 
 		if (str == NULL)
-			printf("(nill)");
+			printf("(nil)");
 		else
 			printf("%s", str);
 
